@@ -11,4 +11,4 @@ FROM Orders AS O
 JOIN Customers AS C ON O.CustomerID = C.CustomerID
 group BY O.CustomerID
 Order by OrderCount DESC
-Limit 15;
+Limit 6;
